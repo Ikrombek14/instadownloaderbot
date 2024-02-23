@@ -43,7 +43,7 @@ def instagram(update, context):
 
 
 def main():
-    updater=Updater(token='5760839164:AAEi0Wj73VG87EPBlMrZ7ZQLHyy_tlIu-m8')
+    updater=Updater(token='')
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler('start',start))
     dispatcher.add_handler(MessageHandler(Filters.all, instagram))
